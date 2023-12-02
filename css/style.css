@@ -95,3 +95,67 @@ nav a:active {
     bottom: 30px;
     cursor: pointer;
 }
+
+/* COORDONNEES ET PRESENTATION */
+
+.coordonnees-et-presentation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.coordonnees {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+address a:link {
+    text-decoration: none;
+    color: #3E8635;
+}
+
+address a:visited {
+    text-decoration: none;
+    color: #3E8635;
+}
+
+address a:hover {
+    text-decoration: underline;
+    color: #3E8635;
+}
+
+address a:active {
+    text-decoration: none;
+    color: #3E8635;
+}
+
+.presentation {
+    width: 650px;
+    height: 200px;
+    margin: auto;
+}
+
+.coordonnees ul {
+    border-color: #3E8635;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.presentation p {
+    border-color: #3E8635;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
