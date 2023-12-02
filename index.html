@@ -14,7 +14,6 @@
 </head>
 
 <body>
-  
   <header>
     <img src="./images/header-picture.png" alt="Une image d'extrait de code HTML. L'image et le code sont en vert." id="image-header">
     <h1>Le Portfolio de PETIT Alicia</h1>
@@ -88,6 +87,29 @@
           <li><span class="gras">Lien vers la création :</span> <a href="https://github.com/PetitAlicia/espace_commentaire" target="_blank">GitHub</a></li>
           </ul>
       </div>
+    </section>
+    <!-- FORMULAIRE -->
+    <section class="formulaire" id="le-formulaire">
+      <h2>Formulaire de contact</h2>
+      <form action="#" method="get" id="formulaire-contact">
+            <div>
+              <label for="objet">Objet</label>
+              <div>
+                <input type="text" name="objet" id="objet">
+              </div>
+          </div>
+          <div>
+            <div>
+              <label for="message">Message</label>
+            </div>
+            <div>
+              <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+          </div>
+          <div>
+            <button type="submit" onclick="formRempli(), pasActualisation(event); reinitialiserForm()">Envoyer un mail</button>
+          </div>
+        </form>
     </section>
   </main>
 
