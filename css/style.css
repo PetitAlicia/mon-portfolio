@@ -304,3 +304,31 @@ footer {
 .mise-a-jour {
     padding-bottom: 20px;
 }
+
+/* PAGE 404 */
+
+#page {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#page a:link {
+    text-decoration: none;
+    color: #3E8635;
+    font-style: italic;
+}
+
+#page a:visited {
+    text-decoration: none;
+    color: #3E8635;
+}
+
+#page a:hover {
+    text-decoration: underline;
+    color: #3E8635;
+}
+
+#page a:active {
+    text-decoration: none;
+    color: #3E8635;
+}
